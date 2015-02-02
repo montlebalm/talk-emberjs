@@ -1,0 +1,11 @@
+<div class="message-list">
+  <ul class="messages">
+    {{#each m in messages}}
+      <li class="message">
+        <span class="time">{{date-format m.timestamp "LTS"}}</span>
+        <span class="user">{{m.user}}:</span>
+        <span class="text">{{m.text}}</span>
+      </li>
+    {{/each}}
+  </ul>
+</div>

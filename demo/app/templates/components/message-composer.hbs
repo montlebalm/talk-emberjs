@@ -1,0 +1,8 @@
+<form {{action "submit" user text on="submit"}} class="message-composer">
+  <div class="form-group">
+    {{input value=user type="text" placeholder="User" class="user" tabindex="1"}}
+    says
+    {{input value=text type="text" placeholder="message" class="text" tabindex="2"}}
+    <button type="submit" class="btn btn-primary btn-sm">Send</button>
+  </div>
+</form>

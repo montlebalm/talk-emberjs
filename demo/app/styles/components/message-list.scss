@@ -1,0 +1,23 @@
+.message-list {
+
+  .messages {
+    @extend .list-unstyled;
+    margin: 0;
+
+    .message {
+
+      .time {
+        color: #999;
+        display: inline-block;
+        width: 90px;
+      }
+
+      .user {
+        font-weight: bold;
+      }
+
+      .text {}
+
+    }
+  }
+}
