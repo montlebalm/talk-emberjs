@@ -1,5 +1,8 @@
 # Talk: Ember.js
 
+[Ember.js: the serious JavaScript framework for responsible
+grown-ups](https://vimeo.com/118861609)
+
 This repository holds the slides, notes, and example application presented
 during my talk on Ember.js.
 
